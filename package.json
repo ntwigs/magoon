@@ -2,7 +2,8 @@
     "name": "magoon",
     "displayName": "Magoon",
     "description": "A clean, and comforting Visual Studio Code theme.",
-    "version": "1.0.0",
+    "icon": "images/mrmagoon.png",
+    "version": "1.0.1",
     "publisher": "Northerntwig",
     "engines": {
         "vscode": "^1.11.0"
