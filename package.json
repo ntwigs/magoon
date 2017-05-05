@@ -5,6 +5,11 @@
     "icon": "images/mrmagoon.png",
     "version": "1.0.1",
     "publisher": "Northerntwig",
+    "galleryBanner": {
+    	"color": "#232F39",
+	"theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
         "vscode": "^1.11.0"
     },
