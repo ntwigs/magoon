@@ -1,0 +1,22 @@
+{
+    "name": "magoon",
+    "displayName": "Magoon",
+    "description": "A clean, and comforting Visual Studio Code theme.",
+    "version": "0.0.1",
+    "publisher": "Thunders",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Magoon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Magoon-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "tokenColors": "./Magoon.tmTheme",
+	"type": "dark",
+	"colors": {
+		"list.focusBackground": "#95bbc72e",
+		"list.activeSelectionBackground": "#95bbc72e",
+		"list.inactiveSelectionBackground": "#95bbc72e",
+		"list.hoverBackground": "#95bbc71f",
+		"editor.background": "#232f39",
+		"editor.foreground": "#ffffff",
+		"editor.selectionBackground": "#434c5ecc",
+		"editor.inactiveSelectionBackground": "#434c5ecc",
+		"editor.findMatchBackground": "#88c0d066",
+		"editor.findMatchHighlightBackground": "#88c0d033",
+		"editor.findRangeHighlightBackground": "#3b4252",
+		"editor.lineHighlightBackground": "#434c5e52",
+		"editor.rangeHighlightBackground": "#434c5ecc",
+		"editorCursor.foreground": "#d9e6eb",
+		"editorWhitespace.foreground": "#4c566ab3",
+		"editorIndentGuide.background": "#4c566a",
+		"editor.hoverHighlightBackground": "#3b4252",
+		"editor.wordHighlightBackground": "#88c0d04d",
+		"editor.wordHighlightStrongBackground": "#88c0d033",
+		"editorGroupHeader.tabsBackground": "#232f39",
+		"tab.activeBackground": "#232f39",
+		"tab.inactiveBackground": "#232f39",
+		"sideBar.background": "#232f39",
+		"peekViewResult.matchHighlightBackground": "#88c0d033",
+		"peekViewEditor.matchHighlightBackground": "#88c0d066",
+		"focusBorder": "#7BCDFF",
+		"tab.border": "#95bbc71f"
+	}
+}
