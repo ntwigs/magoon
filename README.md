@@ -8,10 +8,7 @@
     <img alt='version badge' src='https://img.shields.io/badge/version-1.0.1-blue.svg?style=flat-square' />
   </p>
 </div>
-
-
-
----
+<hr>  
 
 A vscode theme that makes colors pop!  
 
