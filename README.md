@@ -10,9 +10,11 @@
 </div>
 <hr>  
 
-A vscode theme that makes colors pop!  
-
-[Get it here!](https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon)  <br>
+<p align="center">
+  A vscode theme that makes colors pop! <br>
+  <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Get it here!</a>
+</p>
+ 
   
 <p align="center">
   <img alt='example' src='https://cloud.githubusercontent.com/assets/14088342/25763477/a3890c50-31e3-11e7-85dc-8de600d98554.png' /><br><br>
