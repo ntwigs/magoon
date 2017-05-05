@@ -15,6 +15,11 @@
 
 A vscode theme that makes colors pop!  
 
-[Get it here!](https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon)  
-
-<img alt='example' src='https://cloud.githubusercontent.com/assets/14088342/25763477/a3890c50-31e3-11e7-85dc-8de600d98554.png' />
+[Get it here!](https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon)  <br>
+  
+<p align="center">
+  <img alt='example' src='https://cloud.githubusercontent.com/assets/14088342/25763477/a3890c50-31e3-11e7-85dc-8de600d98554.png' /><br><br>
+  The theme was built with <a href="https://github.com/arcticicestudio/nord">Nord</a> as a template.<br><br>
+  <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
+  <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
+</p>
