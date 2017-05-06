@@ -28,6 +28,10 @@
 		"peekViewResult.matchHighlightBackground": "#88c0d033",
 		"peekViewEditor.matchHighlightBackground": "#88c0d066",
 		"focusBorder": "#7BCDFF",
-		"tab.border": "#95bbc71f"
+		"tab.border": "#95bbc71f",
+		"activityBar.background": "#232f39",
+		"activityBar.foreground": "#88c0d066",
+		"activityBarBadge.background": "#232f39",
+		"activityBarBadge.foreground": "#B9FCB4"
 	}
 }
