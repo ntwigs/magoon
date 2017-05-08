@@ -5,7 +5,7 @@
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping!-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
-    <img alt='version badge' src='https://img.shields.io/badge/version-1.0.1-blue.svg?style=flat-square' />
+    <img alt='version badge' src='https://img.shields.io/badge/version-1.1.1-blue.svg?style=flat-square' />
   </p>
 </div>
 <hr>  
@@ -13,6 +13,8 @@
 <p align="center">
   A vscode theme that makes colors pop! <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Get it here!</a>
+   - or -
+  <a href="https://github.com/NorthernTwig/Magoon">On GitHub!</a>
 </p>
  
   

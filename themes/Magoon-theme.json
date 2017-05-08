@@ -32,6 +32,7 @@
 		"activityBar.background": "#232f39",
 		"activityBar.foreground": "#88c0d066",
 		"activityBarBadge.background": "#232f39",
-		"activityBarBadge.foreground": "#B9FCB4"
+		"activityBarBadge.foreground": "#B9FCB4",
+		"statusBar.background": "#232f39"
 	}
 }
