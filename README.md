@@ -14,7 +14,8 @@
   A vscode theme that makes colors pop! <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Get it here!</a>
    - or -
-  <a href="https://github.com/NorthernTwig/Magoon">On GitHub!</a>
+  <a href="https://github.com/NorthernTwig/Magoon">On GitHub!</a><br>
+  Magoon for React Developer Tools can be found - <a href="https://goo.gl/Gds7zy">here!</a> -
 </p>
  
   
