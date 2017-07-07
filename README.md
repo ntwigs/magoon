@@ -5,7 +5,7 @@
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping!-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
-    <img alt='version badge' src='https://img.shields.io/badge/version-1.1.1-blue.svg?style=flat-square' />
+    <img alt='version badge' src='https://img.shields.io/badge/version-1.2.0-blue.svg?style=flat-square' />
   </p>
 </div>
 <hr>  
@@ -15,12 +15,11 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Get it here!</a>
    - or -
   <a href="https://github.com/NorthernTwig/Magoon">On GitHub!</a><br>
-  Magoon for React Developer Tools can be found - <a href="https://goo.gl/Gds7zy">here!</a> -
+  - <a href="https://goo.gl/Gds7zy">React Developer Tools!</a> -
 </p>
- 
-  
+
 <p align="center">
-  <img alt='example' src='https://cloud.githubusercontent.com/assets/14088342/25763477/a3890c50-31e3-11e7-85dc-8de600d98554.png' /><br><br>
+  <img alt='example' src='https://user-images.githubusercontent.com/14088342/27960492-c45eac9a-632b-11e7-9675-9c6f6d45d744.png' /><br><br>
   The theme was built with <a href="https://github.com/arcticicestudio/nord">Nord</a> as a template.<br><br>
   <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
   <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />

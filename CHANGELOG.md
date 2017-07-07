@@ -1,6 +1,10 @@
+## 1.2.0 [Command Palette]
+Changed color for matches, changed picker-group color to white, changed line number color, softened shadows. Should have a better "Magooney" and flatter feel to it.
+![Magoon Display](https://user-images.githubusercontent.com/14088342/27959704-ce25c914-6328-11e7-8221-5f5078fb0310.png)
+
 ## 1.1.2 [React Developer Tools]
 A theme for React Developer Tools has been created, and link has been placed in readme.
-![Magoon for React Developer Toolst](https://user-images.githubusercontent.com/14088342/27956724-5af33894-631b-11e7-98dc-ff5804ac483a.png)
+![Magoon for React Developer Tools](https://user-images.githubusercontent.com/14088342/27956724-5af33894-631b-11e7-98dc-ff5804ac483a.png)
 
 ## 1.1.1 [Status Bar]
 Added color to the status bar.

@@ -27,12 +27,20 @@
 		"sideBar.background": "#232f39",
 		"peekViewResult.matchHighlightBackground": "#88c0d033",
 		"peekViewEditor.matchHighlightBackground": "#88c0d066",
-		"focusBorder": "#7BCDFF",
 		"tab.border": "#95bbc71f",
 		"activityBar.background": "#232f39",
 		"activityBar.foreground": "#88c0d066",
 		"activityBarBadge.background": "#232f39",
 		"activityBarBadge.foreground": "#B9FCB4",
-		"statusBar.background": "#232f39"
+		"statusBar.background": "#232f39",
+		"input.background": "#444e60",
+        "focusBorder": "#444e60",
+        "badge.foreground": "#FFFFFF",
+        "badge.background": "#FFFFFF00",
+        "widget.shadow": "#0000001A",
+        "scrollbar.shadow": "#0000001A",
+        "list.highlightForeground": "#7bcdff",
+        "editorLineNumber.foreground": "#40849c",
+        "pickerGroup.foreground": "#FFFFFF"
 	}
 }
