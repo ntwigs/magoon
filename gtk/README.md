@@ -1,0 +1,1 @@
+# Magoon GTK theme script
