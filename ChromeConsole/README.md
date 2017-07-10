@@ -20,19 +20,20 @@
     - <a href="#">(TBA) Chrome Console</a> -<br><br>
     All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
   </p>
-</p>
+</p><br>
 
-<p align="center"><br>
-  <h3 align="center">Hey, I cant get it to work!</h3>
-  <p align="center">
-    That could because Chrome need to have an experiment feature activated!
-    Activate it by doing the following:<br>
-    ▶ Open Developer Tools Settings<br>
-    ▶ Click on 'Experiments'<br>
-    ▶ Enable 'Allow custom UI themes'<br><br>
-    The Console should now look marvellous!
-  </p>
-</p>
+### Hey, I cant get it to work!
+
+That could because Chrome need to have an experiment feature activated!
+Activate it by doing the following:
+
+
+    ▶ Open Developer Tools Settings
+    ▶ Click on 'Experiments'
+    ▶ Enable 'Allow custom UI themes'
+    
+The Console should now look marvellous!
+
 
 <p align="center"><br>
   <h3 align="center">How good looking is it?</h3>

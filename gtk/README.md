@@ -12,12 +12,14 @@
 
 <p align="center">
   A theme that makes colors go pop, and makes the desktop look dazzlingly good!<br><br>
-  <b>Magoonify all the things!</b><br>
+  <h3 align="center">Magoonify all the things!</h3>
+  <p align="center">
   - <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Visual Studio Code</a> - <br>
   - <a href="https://goo.gl/Gds7zy">React Developer Tools</a> - <br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/gtk">Gnome 3 Deskop Environment</a> - <br>
     - <a href="#">(TBA) Chrome Console</a> -<br><br>
     All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
+  </p>
 </p>
 
 #### What is this?
