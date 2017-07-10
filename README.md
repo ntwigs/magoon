@@ -11,7 +11,7 @@
 <hr>  
 
 <p align="center">
-  A theme that makes colors pop! <br><br>
+  A theme that makes colors go pop! <br><br>
   <b>Magoonify all the things!</b><br>
   - <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Visual Studio Code</a> - <br>
   - <a href="https://goo.gl/Gds7zy">React Developer Tools</a> - <br>

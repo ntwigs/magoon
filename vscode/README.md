@@ -1,6 +1,6 @@
 <p align="center">
   <img alt='magoon-face' src='https://cloud.githubusercontent.com/assets/14088342/25765655/6603ba32-31ee-11e7-8592-60ff4b445127.png' width='250'/>
-  <h1 align="center">MAGOON</h1>
+  <h1 align="center">MAGOON FOR VSCODE</h1>
   <p align="center">A clean, and comforting Visual Studio Code theme.</p>
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping!-green.svg?style=flat-square' />
@@ -11,12 +11,15 @@
 <hr>  
 
 <p align="center">
-  A vscode theme that makes colors pop! <br>
-  <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Get it here!</a>
-   - or -
-  <a href="https://github.com/NorthernTwig/Magoon">On GitHub!</a><br>
-  - <a href="https://goo.gl/Gds7zy">React Developer Tools!</a> -
+  A theme that makes colors go pop, and makes methods look marvellous! <br><br>
+  <b>Magoonify all the things!</b><br>
+  - <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Visual Studio Code</a> - <br>
+  - <a href="https://goo.gl/Gds7zy">React Developer Tools</a> - <br>
+    - <a href="https://github.com/NorthernTwig/Magoon/tree/master/gtk">Gnome 3 Deskop Environment</a> - <br>
+    - <a href="#">(TBA) Chrome Console</a> -<br><br>
+    All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
 </p>
+
 
 <p align="center">
   <img alt='example' src='https://user-images.githubusercontent.com/14088342/27960492-c45eac9a-632b-11e7-9675-9c6f6d45d744.png' /><br><br>
