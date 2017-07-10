@@ -22,5 +22,11 @@ That is basically everything it does. If you feel like bash-scripts are scary be
 
 * Boom! Select your new Theme in, for example, lxappearence, or Gnome Tweak Tool, and then logout, and login again, and everything should be Magoony.
         
-#### Does this work on all distros?
+
+#### OK, but what does it look like?
+This is basically what it looks like.
+![magoon-first-page](https://user-images.githubusercontent.com/14088342/28037008-50a9468e-65ba-11e7-979f-1ac4e096ac3e.png)
+
+
+#### Does this work on all distros and DEs?
 I have no idea, it has only been tested on Ubuntu 17.04, with i3-gaps, using Gnome 3 as a base. However, even though the script might not be working on all distros, the gtk.css file probably would. Just follow the install instructions for the [Arc Theme](https://github.com/horst3180/arc-theme), and replace the appropriate file with the magoon.gkt.css.
