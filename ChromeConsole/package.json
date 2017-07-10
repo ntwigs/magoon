@@ -1,0 +1,27 @@
+{
+  "name": "magoondevtools",
+  "version": "0.0.1",
+  "description": "Magoon theme for Chrome developer tools",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthernTwig/MagoonDevTools.git"
+  },
+  "author": "Oscar Nordquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NorthernTwig/MagoonDevTools/issues"
+  },
+  "homepage": "https://github.com/NorthernTwig/MagoonDevTools#readme",
+  "scripts": {
+    "grunt": "grunt watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-compress": "^1.4.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
