@@ -41,6 +41,7 @@
         "scrollbar.shadow": "#0000001A",
         "list.highlightForeground": "#7bcdff",
         "editorLineNumber.foreground": "#40849c",
-        "pickerGroup.foreground": "#FFFFFF"
+        "pickerGroup.foreground": "#FFFFFF",
+		"editorWidget.background": "#232F39"
 	}
 }

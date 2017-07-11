@@ -1,3 +1,7 @@
+## 1.2.1 [Findbar]
+Changed the findbar (CTRL+F) color to suit the Magoon theme.
+![Magoon Findbar](https://user-images.githubusercontent.com/14088342/28091962-0d77209c-6692-11e7-9e78-f4b8c1333187.png)
+
 ## 1.2.0 [Command Palette]
 Changed color for matches, changed picker-group color to white, changed line number color, softened shadows. Should have a better "Magooney" and flatter feel to it.
 ![Magoon Display](https://user-images.githubusercontent.com/14088342/27959704-ce25c914-6328-11e7-8221-5f5078fb0310.png)
