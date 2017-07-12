@@ -1,3 +1,6 @@
+## 1.0.4 [Line removal]
+The console now looks more flat after the line removal.
+
 ## 1.0.2 [Line-height fix]
 Selecting the text in the console is no longer an issue.
 
