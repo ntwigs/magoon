@@ -1,0 +1,39 @@
+! ------------------------------------------------------------------------------
+! Terminal Magoon
+! ------------------------------------------------------------------------------
+! Extremely Light Grey & Super Dark Grey Blue & Extremely Light Grey
+*.foreground:   #c5c8c6
+*.background:   #232f39
+*.cursorColor:  #c5c8c6
+
+! Super Dark Grey Blue & Light blue
+*.color0:       #232f39
+*.color8:       #6dc6e4
+
+! Darker Blue
+*.color1:       #5fabd9
+*.color9:       #5fabd9
+
+! Light Blue
+*.color2:       #6dc6e4
+*.color10:      #6dc6e4
+
+! Grey
+*.color3:       #9da8ab
+*.color11:      #9da8ab
+
+! Light Green
+*.color4:       #a1d19d
+*.color12:      #a1d19d
+
+! Lighter Grey
+*.color5:       #b3b6c3
+*.color13:      #b3b6c3
+
+! Super Light Blue
+*.color6:       #a1d2e0
+*.color14:      #a1d2e0
+
+! I can't believe it's not white
+*.color7:       #e3e9e8
+*.color15:      #e3e9e8
