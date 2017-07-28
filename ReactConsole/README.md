@@ -17,7 +17,8 @@
   - <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Visual Studio Code</a> - <br>
   - <a href="https://goo.gl/Gds7zy">React Developer Tools</a> - <br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/gtk">Gnome 3 Deskop Environment</a> - <br>
-    - <a href="https://chrome.google.com/webstore/detail/magoon-chrome-devtools-th/aaimlcmkljmacmacanfbhfgjkahgaihm">Chrome Console</a> -<br><br>
+    - <a href="https://chrome.google.com/webstore/detail/magoon-chrome-devtools-th/aaimlcmkljmacmacanfbhfgjkahgaihm">Chrome Console</a> -<br>
+    - <a href="https://github.com/NorthernTwig/Magoon/tree/master/rofi">Rofi</a> -<br><br>
     All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
   </p>
 </p>
