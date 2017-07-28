@@ -1,0 +1,9 @@
+! ------------------------------------------------------------------------------
+! ROFI Magoon
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-normal:                   argb:00232F39, #E3E9E8, argb:00232F39, argb:FF6DC6E4, argb:FF232F39
+rofi.color-urgent:                   argb:00232F39, #5FABD9, #232F39, #5FABD9, #E3E9E8
+rofi.color-active:                   argb:00232F39, #E3E9E8, #232F39, #6DC6E4, #232F39
+rofi.color-window:                   argb:E6232F39, #232F39, #6DC6E4
+rofi.font: Terminus Regular 12
