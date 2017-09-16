@@ -29,7 +29,7 @@
 That could because Chrome need to have an experiment feature activated!
 Activate it by doing the following:
 
-
+    ▶ Goto chrome://flags/#enable-devtools-experiments and click enable  
     ▶ Open Developer Tools Settings
     ▶ Click on 'Experiments'
     ▶ Enable 'Allow custom UI themes'
