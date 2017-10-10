@@ -29,10 +29,12 @@
 That could because Chrome need to have an experiment feature activated!
 Activate it by doing the following:
 
+    ▶ Add this theme  
     ▶ Goto chrome://flags/#enable-devtools-experiments and click enable  
-    ▶ Open Developer Tools Settings
-    ▶ Click on 'Experiments'
-    ▶ Enable 'Allow custom UI themes'
+    ▶ Select [Relaunch Now] at the bottom of the page  
+    ▶ Open Developer Tools Settings  
+    ▶ Click on 'Experiments'  
+    ▶ Enable 'Allow custom UI themes'  
     
 The Console should now look marvellous!
 
