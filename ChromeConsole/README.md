@@ -5,7 +5,7 @@
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping!-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
-    <img alt='version badge' src='https://img.shields.io/badge/version-1.0.4-blue.svg?style=flat-square' />
+    <img alt='version badge' src='https://img.shields.io/badge/version-2.0.0-blue.svg?style=flat-square' />
   </p>
 </div>
 <hr>  
