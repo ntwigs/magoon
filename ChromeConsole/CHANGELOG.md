@@ -1,3 +1,6 @@
+## 2.0.1 [Major update]
+The network label re-fix. 
+
 ## 2.0.0 [Major update]
 The theme now works with the added functionallity from chrome 61.*
 
