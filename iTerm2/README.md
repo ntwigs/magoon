@@ -29,11 +29,16 @@ This is a theme created for terminals. You can start using it by doing the follo
 
 ▶ Just double click the file "magoon.itermcolors and it will install the theme."
 
+▶ The color settings will look like the following:  
+  <img alt='Licence Apache' src='https://user-images.githubusercontent.com/14079937/36593619-c8fea7ee-189a-11e8-86de-e3898cffca0a.png' width="50%" />
 
 <p align="center"><br>
   <h3 align="center">Are the colors really popping?</h3>
-  <p align="center">I promise, they look very Magooney!</p>
-  <img alt='example' src='https://user-images.githubusercontent.com/14088342/28725329-6e4f2ec2-73bd-11e7-885a-8af5c2cf465a.png' />
+  <p align="center">
+  I promise, they look very Magooney!<br><br>
+
+  <img alt='example' src='https://user-images.githubusercontent.com/14079937/36593633-d8463cf8-189a-11e8-9636-185416be667d.png' width="50%" />
+  </p>
 </p>
 
 <p align="center">
