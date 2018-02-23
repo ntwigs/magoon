@@ -19,13 +19,14 @@
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/gtk">Gnome 3 Deskop Environment</a> - <br>
     - <a href="https://chrome.google.com/webstore/detail/magoon-chrome-devtools-th/aaimlcmkljmacmacanfbhfgjkahgaihm">Chrome Console</a> -<br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/rofi">Rofi</a> -<br>
+    - <a href="https://github.com/NorthernTwig/Magoon/tree/master/iTerm2">iTerm2</a> -<br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/terminal">Terminal</a> -<br><br>
     All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
   </p>
 </p>
 
 ### Hey, what is this, and how can I get it to work?
-This is a theme created for terminals. You can start using it by doing the following:
+This is a theme created for iTerm2. You can start using it by doing the following:
 
 ▶ Just double click the file "magoon.itermcolors and it will install the theme."
 
