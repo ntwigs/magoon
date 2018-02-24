@@ -27,12 +27,11 @@
 
 <p align="center">
   <img alt='example' src='https://user-images.githubusercontent.com/14088342/27960492-c45eac9a-632b-11e7-9675-9c6f6d45d744.png' /><br><br>
-  <p align="center">
-  <h3>The Fabulous Contributors</h3>
-  <a href="https://github.com/LokeCarlsson"><img style="border-radius: 3px" alt="LokeCarlsson" src="https://user-images.githubusercontent.com/14088342/36630240-8f65b062-1963-11e8-87f3-c9c790396295.png"></img></a>
-  </p>
+  <h3 align="center">The Fabulous Contributors</h3>
+  <a href="https://github.com/LokeCarlsson" align="center"><p align="center"><img align="center" style="border-radius: 3px;" alt="LokeCarlsson" src="https://user-images.githubusercontent.com/14088342/36630240-8f65b062-1963-11e8-87f3-c9c790396295.png"/></p></a>
   <br><br>
-  Magoon, the Lagoon Monster.<br><br>
-  <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
-  <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
+  <p align="center">Magoon, the Lagoon Monster.<br><br>
+    <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
+    <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
+  </p>
 </p>
