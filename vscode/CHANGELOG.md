@@ -1,3 +1,6 @@
+## 1.2.2 [MacOS Bar]
+Added titlebar colors.
+
 ## 1.2.1 [Findbar]
 Changed the findbar (CTRL+F) color to suit the Magoon theme.
 ![Magoon Findbar](https://user-images.githubusercontent.com/14088342/28091962-0d77209c-6692-11e7-9e78-f4b8c1333187.png)
