@@ -19,6 +19,7 @@
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/gtk">Gnome 3 Deskop Environment</a> - <br>
     - <a href="https://chrome.google.com/webstore/detail/magoon-chrome-devtools-th/aaimlcmkljmacmacanfbhfgjkahgaihm">Chrome Console</a> -<br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/rofi">Rofi</a> -<br>
+    - <a href="https://github.com/NorthernTwig/Magoon/tree/master/alfred">Alfred</a> -<br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/iTerm2">iTerm2</a> -<br>
     - <a href="https://github.com/NorthernTwig/Magoon/tree/master/terminal">Terminal</a> -<br><br>
     All source code on <a href="https://github.com/NorthernTwig/Magoon">GitHub</a>! 
