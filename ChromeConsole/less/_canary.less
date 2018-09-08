@@ -3,7 +3,7 @@
 // ==========================================================================
 
 // section headers - replace when stable
-::shadow .expandable-view-title {
+.expandable-view-title {
 	&:extend(.sidebar-pane all);
 }
 
@@ -22,4 +22,12 @@
 #console-messages .link,
 #console-messages .devtools-link {
 	color: @global-text;
+}
+
+// Adding class for weird bug where files that are of size equals multiple
+// of content hash's block_size (4096 bytes) always fail content verification due to bug.
+// https://bugs.chromium.org/p/chromium/issues/detail?id=720597
+// Fix landed in m61
+.dummy-class-to-fix-weird-bug {
+	display: none;
 }

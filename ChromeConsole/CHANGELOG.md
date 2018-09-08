@@ -1,3 +1,9 @@
+## 3.0.0 [Major Update]
+Magoon now works with the latest Chrome (Version 69.0.3497.81 (Official Build) (64-bit)).
+ - Colors are no longer wierd!
+ - It no longer lags!
+ - It's all Magooney!
+
 ## 2.0.1 [Major update]
 The network label re-fix. 
 

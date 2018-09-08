@@ -1,6 +1,6 @@
 {
   "name": "magoondevtools",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "description": "Magoon theme for Chrome developer tools",
   "main": "Gruntfile.js",
   "repository": {
@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/NorthernTwig/MagoonDevTools#readme",
   "scripts": {
-    "grunt": "grunt watch"
+    "start": "grunt watch",
+    "build": "grunt"
   },
   "dependencies": {},
   "devDependencies": {

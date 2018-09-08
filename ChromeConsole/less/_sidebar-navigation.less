@@ -75,7 +75,12 @@
 	color: @global-label !important;
 }
 
-::shadow .resource-tree-item.selected .icon,
-::shadow .force-white-icons [is="ui-icon"].spritesheet-largeicons {
+.resource-tree-item.selected .icon,
+.force-white-icons [is="ui-icon"].spritesheet-largeicons {
 	background-color: @global-accent !important;
+}
+
+// override setting that makes text black
+ol.tree-outline li.selected:focus *  {
+	color: @global-text !important;
 }

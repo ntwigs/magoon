@@ -47,7 +47,7 @@ The Console should now look marvellous!
 </p>
 
 <p align="center">
-  The theme was built with <a href="https://github.com/mauricecruz/zero-base-themes">Zero Base</a> as a template.<br><br>
+  The theme was built with <a href="https://github.com/mauricecruz/zero-base-themes">Zero Base</a>.<br><br>
   <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
   <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
 </p>

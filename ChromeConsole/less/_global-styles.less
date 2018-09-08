@@ -2,33 +2,41 @@
 /* DevTool Chrome
 /**********************************************/
 
-//GLOBAL BACKGROUND COLOR
+// GLOBAL BACKGROUND COLOR
+// elements-panel
+.panel.elements,
+// elements-sidebar
+.styles-pane,
+.metrics,
+// console
 #console-messages,
-#console-view,
-#network-views .CodeMirror-lines,
-#script-view-fallback,
-.console-view-wrapper,
-.dialog .fill,
-.drawer .revision-history-drawer,
-.help-window-main,
-.panel .split-view-contents,
-.panel,
-.panel-enabler-view,
-.profiles-sidebar-tree-box,
-.resource-view .script-view, // network -> response bg
-.sidebar-overlay,
-.split-view-vertical .sidebar-pane.composite .properties-tree,
-.styles-section.read-only,
+// sources
 .tabbed-pane-content,
-.tabbed-pane-content.has-no-tabs
-.timeline-records-title,
-.timeline-records-list,
-#timeline-overview-sidebar {
+ {
+// #console-messages,
+// #console-view,
+// #network-views .CodeMirror-lines,
+// #script-view-fallback,
+// .console-view-wrapper,
+// .dialog .fill,
+// .drawer .revision-history-drawer,
+// .help-window-main,
+// .panel .split-view-contents,
+// .panel,
+// .panel-enabler-view,
+// .profiles-sidebar-tree-box,
+// .resource-view .script-view, // network -> response bg
+// .sidebar-overlay,
+// .split-view-vertical .sidebar-pane.composite .properties-tree,
+// .styles-section.read-only,
+// .tabbed-pane-content,
+// .tabbed-pane-content.has-no-tabs
+// .timeline-records-title,
+// .timeline-records-list,
+// #timeline-overview-sidebar
 	background-color: @global-background !important;
-	z-index: 0;
 }
 
-::shadow ::selection,
 ::selection {
 	background: lighten(@global-selected, 45%)
 }
@@ -100,8 +108,8 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 }
 
 // Editing Dom Nodes or Snippet Filenames
-::shadow ::shadow style + .text-prompt-editing,
-::shadow .text-prompt-editing ,
+style + .text-prompt-editing,
+.text-prompt-editing,
 .editing {
 	box-shadow: none !important;
 	background-color: @global-background !important;
@@ -109,26 +117,19 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 	color: @global-text !important;
 }
 
-::shadow .text-prompt-editing > ::content * {
+// Weird edit state where you add an attribute, but delete the text and retype
+.being-edited.editing font {
 	color: @global-text !important;
 }
 
-::shadow .elements-tree-editor {
+.elements-tree-editor {
 	box-shadow: none !important;
 }
 
 // Editing Scope values
-::shadow .editing-sub-part ::shadow .text-prompt-editing ::content * {
+.editing-sub-part .text-prompt-editing ::content * {
 	background-color: @global-background !important;
 	color: @global-text !important;
-}
-
-// ----- Material Design ------
-.material {
-
-	.elements-topbar {
-		background: @filter-background !important;
-	}
 }
 
 // Tree Directories
@@ -136,38 +137,34 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 	background-color: @global-background !important;
 }
 
-::shadow {
-	.tree-outline li {
-		color: @global-text !important;
-		background-color: @table-primary !important;
-
-		&.odd-row + .children li,
-		&.odd-row {
-			background-color: @table-secondary !important;
-		}
-
-		&:hover:not(.selected) .selection {
-			.highlight(hover);
-		}
-
-		&.selected .selection {
-			.highlight(selection);
-		}
+.tree-outline li {
+	&.odd-row + .children li,
+	&.odd-row {
+		background-color: @table-secondary !important;
 	}
 
-	li.audits-sidebar-results {
-		text-shadow: none !important;
+	&:hover:not(.selected) .selection {
+		.highlight(hover);
+	}
+
+	&.selected .selection {
+		.highlight(selection);
 	}
 }
 
+
+li.audits-sidebar-results {
+	text-shadow: none !important;
+}
+
 // Don't highlight Request Header Tree
-.request-headers-tree::shadow .tree-outline li.selected .selection {
+.request-headers-tree .tree-outline li.selected .selection {
 	background-color: transparent !important;
 	box-shadow: none !important;
 }
 
 
-::shadow .soft-context-menu {
+.soft-context-menu {
 	background: @popover-background !important;
 	border: 1px solid @- !important; .contrast(@popover-background, 5%);
 	color: @global-text !important;
@@ -186,17 +183,8 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 		border-bottom: 1px solid @- !important; .contrast(@popover-background, 5%);
 	}
 
-	.checkmark {
-		.glyphs("Images/toolbarButtonGlyphs");
-
-		-webkit-mask-position: -128px -109px;
-		-webkit-mask-size: 352px 168px;
-		background-color: @global-accent !important;
-		background-image: none !important;
-	}
-
 	// Dock options (remove blue hover)
-	.toolbar::shadow .toolbar-shadow.blue-on-hover .toolbar-item:not(.toggled-on).hover:enabled {
+	.toolbar .toolbar-shadow.blue-on-hover .toolbar-item:not(.toggled-on).hover:enabled {
 		background-color: @global-hover !important;
 
 		.glyph {
@@ -205,8 +193,38 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 	}
 }
 
+// Console context dropdown
+.console-context {
+	background-color: transparent !important;
+
+	&.warning .title {
+		color: @global-warn !important;
+	}
+}
+
+.widget .context-list {
+	background: @popover-background !important;
+	border: 1px solid @- !important; .contrast(@popover-background, 5%);
+	color: @global-text !important;
+	box-shadow: 0 5px 10px fade(#000, 40%) !important;
+
+	.context.selected {
+		& { background-color: @- !important; .contrast(@popover-background, 8%); }
+		& { border-top: 1px solid @- !important; .contrast(@popover-background, 10%); }
+		& { border-bottom: 1px solid @- !important; .contrast(@popover-background, 10%); }
+
+		.title {
+			color: @global-text !important;
+		}
+
+		.subtitle {
+			color: @global-label !important;
+		}
+	}
+}
+
 // Tooltips
-::shadow .tooltip {
+.tooltip {
 	background: @- !important; .contrast(@global-background, 3%);
 	border: 1px solid @global-background;
 	color: @global-text !important;
@@ -217,35 +235,25 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 }
 
 // Buttons
-::shadow {
-	.chrome-select:extend(.chrome-select all) {};
+.chrome-select:extend(.chrome-select all) {};
 
-	.text-button,
-	[is="text-button"] {
-		.button-styles();
-	}
+.text-button,
+[is="text-button"] {
+	.button-styles();
 }
 
-::shadow ::shadow,
-::shadow ::shadow ::shadow {
-	.text-button,
-	[is="text-button"] {
-		.button-styles();
-	}
-}
-
-::shadow ol.children.shadow-root.expanded {
+ol.children.shadow-root.expanded {
 	border-left: 1px dashed @- !important; .contrast(@global-background, 10%);
 }
 
 // ==========================================================================
 // Forms
 // ==========================================================================
-body/deep/ input.toolbar-item {
+input.toolbar-item {
 	.input-styles()
 }
 
-label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
+label[is="dt-radio"] ::content .dt-radio-button:checked {
 		border: 0 !important;
 		background: url("Images/radioDot.png") center center no-repeat @global-accent !important;
 }
@@ -260,7 +268,7 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 }
 
 // Remove text shadow from menus
-::shadow .tree-outline {
+.tree-outline {
 	li.security-sidebar-origins,
 	li.profiles-tree-section {
 		text-shadow: none !important;
@@ -273,7 +281,7 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 // ==========================================================================
 
 // Large Icons
-::shadow .spritesheet-largeicons:not(.icon-mask) {
+.spritesheet-largeicons:not(.icon-mask) {
 	&.smallicon-file,
 	&.smallicon-file-sync {
 		.glyphs("Images/toolbarButtonGlyphs");
@@ -283,7 +291,7 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 }
 
 // persistence file indicator
-::shadow .spritesheet-largeicons:not(.icon-mask) {
+.spritesheet-largeicons:not(.icon-mask) {
 	&.smallicon-file,
 	&.smallicon-file-sync {
 		position: relative;
@@ -292,7 +300,7 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 	}
 }
 
-::shadow .selected .spritesheet-largeicons:not(.icon-mask) {
+.selected .spritesheet-largeicons:not(.icon-mask) {
 	&.smallicon-file,
 	&.smallicon-file-sync {
 		background: @tab-label-selected !important;
@@ -301,12 +309,17 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 
 // Small Icons
 // call stack indicator | thread position indicator | inline breakpoint
-.spritesheet-smallicons:not(.icon-mask),
-::shadow .spritesheet-smallicons:not(.icon-mask) {
+.spritesheet-smallicons:not(.icon-mask) {
 	&.smallicon-thick-right-arrow,
 	&.smallicon-inline-breakpoint-conditional {
 		.glyphs("Images/smallIcons");
 		background: @global-accent !important;
+	}
+
+	&.smallicon-checkmark {
+		.glyphs("Images/smallIcons");
+		background: @global-accent !important;
+		-webkit-mask-position: -20px 90px !important;
 	}
 }
 
@@ -319,9 +332,7 @@ label[is="dt-radio"]::shadow ::content .dt-radio-button:checked {
 	background-color: transparent !important;
 }
 
-::shadow {
-	.selected-call-frame-icon,
-	.selected-thread-icon {
-		-webkit-mask-position: -80px 50px !important;
-	}
+.selected-call-frame-icon,
+.selected-thread-icon {
+	-webkit-mask-position: -80px 50px !important;
 }
