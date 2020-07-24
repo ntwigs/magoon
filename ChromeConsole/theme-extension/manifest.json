@@ -1,6 +1,6 @@
 {
 	"name": "Magoon: Chrome DevTools Theme",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "A dark theme called Magoon which is now available for the Chrome Developer Tools.",
 	"homepage_url": "https://github.com/NorthernTwig/Magoon/tree/master/ChromeConsole",
 	"devtools_page": "devtools.html",
