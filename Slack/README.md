@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  A theme that makes colors go pop, and makes application launching miraculously awesome! <br><br>
+  A theme that makes colors go pop, and makes talking with your colleagues miraculously awesome! <br><br>
   <h3 align="center">Magoonify all the things!</h3>
   <p align="center">
   - <a href="https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon">Visual Studio Code</a> - <br>
