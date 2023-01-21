@@ -18,6 +18,8 @@
   </p>
 </div>
 
+</br></br>
+
 ## What is this theme for? 🍻
 
 <!-- This is where you specify which software you're making pretty! -->
@@ -40,6 +42,8 @@
     </a>
   <div>
  -->
+
+</br></br>
 
 <p align="center"><br>
   The theme was built with love 🥰, black metal 🎸, and waaay to much spare time. 💚 </br></br>
