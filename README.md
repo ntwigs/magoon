@@ -18,6 +18,8 @@
 </div>
 <hr>
 
+</br></br>
+
 ## What is this theme for? 🍻
 
 Magoon exists for a bunch of different software - such as Visual Studio Code, Google Chrome Devtools, etc.
@@ -43,6 +45,8 @@ Checkout the theme folder if you're looking for something specific.
     <img style="width: 32px; height: 32px;" src="https://avatars.githubusercontent.com/u/14079937?v=4">
   </a>
 <div>
+
+</br></br>
 
 <p align="center"><br>
   The theme was built with love 🥰, black metal 🎸, and waaay to much spare time. 💚 </br></br>
