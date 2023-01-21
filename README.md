@@ -10,17 +10,16 @@
 <p align="center">
   <img alt='magoon-face' src='https://cloud.githubusercontent.com/assets/14088342/25765655/6603ba32-31ee-11e7-8592-60ff4b445127.png' width='250'/>
   <h1 align="center">MAGOON</h1>
-  <p align="center">A clean, and comforting theme.</p>
   <p align="center">
-    <img alt='popping badge' src='https://img.shields.io/badge/colors-popping!-green.svg?style=flat-square' />
+A theme that makes colors go pop 🍾, and makes everything look dazzlingly good! ✨
+  </p>
+  <p align="center">
+    <img alt='popping badge' src='https://img.shields.io/badge/colors-popping-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
-    <img alt='version badge' src='https://img.shields.io/badge/version-{{ REPLACE_WITH_VERSION x.x.x}}-blue.svg?style=flat-square' />
   </p>
 </div>
-<hr>
 
 <p align="center">
-  A theme that makes colors go pop, and makes everything look dazzlingly good!<br><br>
   <h3 align="center">Magoon all the things!</h3>
   <p align="center">
     All source code on <a href="https://github.com/ntwigs/magoon">GitHub</a>! 
@@ -49,12 +48,12 @@ Checkout the theme folder if you're looking for something specific.
 
 <div>
   <a href="https://github.com/loke-dev">
-    <img style="width: 32px; height: 32px; border-radius: 32px;" src="https://avatars.githubusercontent.com/u/14079937?v=4">
+    <img style="width: 32px; height: 32px;" src="https://avatars.githubusercontent.com/u/14079937?v=4">
   </a>
 <div>
 
 <p align="center"><br>
-  The theme was built with love 🥰, black metal 🎸, and waaay to much spare time. 💚 </br>
+  The theme was built with love 🥰, black metal 🎸, and waaay to much spare time. 💚 </br></br>
   <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
   <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
 </p>
