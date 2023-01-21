@@ -16,6 +16,7 @@
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
   </p>
 </div>
+<hr>
 
 ## What is this theme for? 🍻
 
