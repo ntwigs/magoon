@@ -45,6 +45,5 @@ Checkout the theme folder if you're looking for something specific.
 
 <p align="center"><br>
   The theme was built with love 🥰, black metal 🎸, and waaay to much spare time. 💚 </br></br>
-  <img alt='Licence Apache' src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square' />
-  <img alt='Licence CC' src='https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg?style=flat-square' />
+  <img alt='MIT' src='https://img.shields.io/github/license/ntwigs/magoon?style=flat-square' />
 </p>
