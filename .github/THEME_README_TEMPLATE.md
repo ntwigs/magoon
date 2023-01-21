@@ -32,7 +32,11 @@
 
 <!-- This is where you show screenshot! -->
 
-## The fabulous contributors
+## Install instructions 🛠️
+
+<!-- How do I get the theme to work? -->
+
+## The fabulous contributors ✨
 
 <!--
   This is where you add contributors! Use the following layout/structure:
