@@ -38,7 +38,7 @@ Checkout the theme folder if you're looking for something specific.
 
 <!-- This is where you show screenshot! -->
 
-## The fabulous contributors
+## The fabulous contributors ✨
 
 <div>
   <a href="https://github.com/loke-dev">
