@@ -10,21 +10,12 @@
 <p align="center">
   <img alt='magoon-face' src='https://cloud.githubusercontent.com/assets/14088342/25765655/6603ba32-31ee-11e7-8592-60ff4b445127.png' width='250'/>
   <h1 align="center">MAGOON</h1>
-  <p align="center">
-A theme that makes colors go pop 🍾, and makes everything look dazzlingly good! ✨
-  </p>
+  <p align="center">A theme that makes colors go pop 🍾, and makes everything look dazzlingly good! ✨</p>
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
   </p>
 </div>
-
-<p align="center">
-  <h3 align="center">Magoon all the things!</h3>
-  <p align="center">
-    All source code on <a href="https://github.com/ntwigs/magoon">GitHub</a>! 
-  </p>
-</p>
 
 ## What is this theme for? 🍻
 
