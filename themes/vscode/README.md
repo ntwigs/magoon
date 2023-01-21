@@ -9,42 +9,40 @@
 
 <p align="center">
   <img alt='magoon-face' src='https://cloud.githubusercontent.com/assets/14088342/25765655/6603ba32-31ee-11e7-8592-60ff4b445127.png' width='250'/>
-  <h1 align="center">MAGOON</h1>
+  <h1 align="center">MAGOON FOR VSCODE</h1>
   <p align="center">A theme that makes colors go pop 🍾, and makes everything look dazzlingly good! ✨</p>
   <p align="center">
     <img alt='popping badge' src='https://img.shields.io/badge/colors-popping-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
+    <img alt='version badge' src='https://img.shields.io/badge/version-1.2.2-blue.svg?style=flat-square' />
   </p>
 </div>
-<hr>
 
 </br></br>
 
 ## What is this theme for? 🍻
 
-Magoon exists for a bunch of different software - such as Visual Studio Code, Google Chrome Devtools, etc.
+This is the theme for the one and only - visual studio code (`vscode`).
 
 <!-- This is where you specify which software you're making pretty! -->
 
 ## Where can I get it? 🤲
 
-Checkout the theme folder if you're looking for something specific.
+You can find it right [here](https://marketplace.visualstudio.com/items?itemName=Northerntwig.magoon),
+find it in the vscode extension store inside of vscode, or install it from the theme Command Palette.
+
+1. Go to View -> Command Palette or press Ctrl+Shift+P
+2. Then enter Install Extension
+3. Write Magoon
+4. Select it or press Enter to install
 
 <!-- This is where you specify links to ex. vscode marketplace, alfred, etc. -->
 
 ## Show me the beauty 💅
 
-![magoon-de](https://user-images.githubusercontent.com/14088342/28037860-2d2fa83a-65bd-11e7-9a57-0f63780379e2.png)
+![magoon-vscode](https://user-images.githubusercontent.com/14088342/27960492-c45eac9a-632b-11e7-9675-9c6f6d45d744.png)
 
 <!-- This is where you show screenshot! -->
-
-## The fabulous contributors ✨
-
-<div>
-  <a href="https://github.com/loke-dev">
-    <img style="width: 32px; height: 32px;" src="https://avatars.githubusercontent.com/u/14079937?v=4">
-  </a>
-<div>
 
 </br></br>
 
