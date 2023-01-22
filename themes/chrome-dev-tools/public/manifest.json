@@ -1,0 +1,15 @@
+{
+  "author": "ntwigs",
+  "manifest_version": 3,
+  "name": "Magoon: Chrome DevTools Theme",
+  "short_name": "Magoon",
+  "description": "A dark and dazzling theme for the Chrome Developer Tools.",
+  "version": "5.0.0",
+  "homepage_url": "https://github.com/ntwigs/magoon/tree/main/themes/chrome-dev-tools",
+  "devtools_page": "../src/index.html",
+  "icons": {
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  }
+}
