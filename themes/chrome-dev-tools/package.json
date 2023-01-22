@@ -1,28 +1,17 @@
 {
-  "name": "magoondevtools",
-  "version": "3.0.0",
-  "description": "Magoon theme for Chrome developer tools",
-  "main": "Gruntfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NorthernTwig/MagoonDevTools.git"
-  },
-  "author": "Oscar Nordquist",
+  "name": "chrome-dev-tools",
+  "version": "5.0.0",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NorthernTwig/MagoonDevTools/issues"
-  },
-  "homepage": "https://github.com/NorthernTwig/MagoonDevTools#readme",
   "scripts": {
-    "start": "grunt watch",
-    "build": "grunt"
+    "build": "parcel build public/manifest.json",
+    "build:prod": "parcel build public/manifest.json --no-source-maps"
   },
-  "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-bump": "^0.8.0",
-    "grunt-contrib-compress": "^1.4.1",
-    "grunt-contrib-less": "^1.4.1",
-    "grunt-contrib-watch": "^1.0.0"
+    "@parcel/config-webextension": "^2.8.3",
+    "@parcel/core": "2.8.3",
+    "@parcel/transformer-inline-string": "2.8.3",
+    "@parcel/transformer-sass": "2.8.3",
+    "@types/chrome": "^0.0.209",
+    "parcel": "^2.8.3"
   }
 }

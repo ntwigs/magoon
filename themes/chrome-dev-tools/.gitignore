@@ -1,6 +1,3 @@
 node_modules
-/images
-theme-extension/stable.css
-theme-extension/canary.css
-theme-extension.zip
-
+dist
+.parcel-cache
