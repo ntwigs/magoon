@@ -1,0 +1,162 @@
+$foreground: #c5c8c6;
+$background: #232f39;
+$cursorColor: #c5c8c6;
+
+$color0: #232f39;
+$color8: #6dc6e4;
+
+$color1: #5fabd9;
+$color9: #5fabd9;
+
+$color2: #6dc6e4;
+$color10: #6dc6e4;
+
+$color3: #9da8ab;
+$color11: #9da8ab;
+
+$color4: #a1d19d;
+$color12: #a1d19d;
+
+$color5: #b3b6c3;
+$color13: #b3b6c3;
+
+$color6: #a1d2e0;
+$color14: #a1d2e0;
+
+$color7: #e3e9e8;
+$color15: #e3e9e8;
+
+body {
+  --color-primary: #{$color4};
+  --color-primary-variant: #{$color12};
+  --color-background: #{$background};
+  --color-background-inverted: #{$foreground};
+
+  --color-background-inverted-opacity-2: #{rgba($foreground, 0.02)};
+  --color-background-inverted-opacity-30: #{rgba($foreground, 0.3)};
+  --color-background-inverted-opacity-50: #{rgba($foreground, 0.5)};
+  --color-background-opacity-50: #{rgba($background, 0.5)};
+  --color-background-opacity-80: #{rgba($background, 0.8)};
+  --color-background-elevation-0: transparent;
+  --color-background-elevation-1: transparent;
+  --color-background-elevation-2: transparent;
+
+  --color-background-elevation-dark-only: var(--color-background-elevation-1);
+  --color-background-highlight: #{$cursorColor};
+  --divider-line: var(--color-background-inverted-opacity-50);
+  --color-background-hover-overlay: #{rgba($foreground, 0.1)};
+  --color-selection-highlight: #{rgba($foreground, 0.2)};
+
+  --color-selection-highlight-border: rgb(251 202 70);
+  --color-match-highlight: rgb(56 121 217 / 35%);
+  --color-text-primary: rgb(232 234 237);
+  --color-text-secondary: rgb(154 160 166);
+  --color-text-secondary-selected: rgb(188 185 182);
+  --color-text-disabled: rgb(128 134 139);
+  --color-details-hairline: rgb(73 76 80);
+  --color-details-hairline-light: rgb(54 57 59);
+  --color-accent-red: rgb(242 139 130);
+  --color-red: rgb(237 78 76);
+  --color-accent-green: rgb(129 201 149);
+  --color-accent-green-background: rgb(129 201 149 / 20%);
+  --color-link: var(--color-primary);
+  --color-syntax-1: rgb(53 212 199);
+  --color-syntax-2: rgb(93 176 215);
+  --color-syntax-2-rgb: 93 176 215;
+  --color-syntax-3: rgb(242 151 102);
+  --color-syntax-4: rgb(155 187 220);
+  --color-syntax-5: rgb(132 240 255);
+  --color-syntax-6: rgb(171 171 171);
+  --color-syntax-7: rgb(207 208 208);
+  --color-syntax-8: rgb(93 176 215);
+  --drop-shadow: 0 0 0 1px rgb(255 255 255 / 20%),
+    0 2px 4px 2px rgb(0 0 0 / 20%), 0 2px 6px 2px rgb(0 0 0 / 10%);
+  --drop-shadow-depth-1: 0 1px 2px rgb(0 0 0 / 30%),
+    0 1px 3px 1px rgb(0 0 0 / 15%);
+  --drop-shadow-depth-2: 0 1px 2px rgb(0 0 0 / 30%),
+    0 2px 6px 2px rgb(0 0 0 / 15%);
+  --drop-shadow-depth-3: 0 4px 8px 3px rgb(0 0 0 / 15%),
+    0 1px 3px rgb(0 0 0 / 30%);
+  --drop-shadow-depth-4: 0 6px 10px 4px rgb(0 0 0 / 15%),
+    0 2px 3px rgb(0 0 0 / 30%);
+  --drop-shadow-depth-5: 0 8px 12px 6px rgb(0 0 0 / 15%),
+    0 4px 4px rgb(0 0 0 / 30%);
+  --box-shadow-outline-color: rgb(0 0 0 / 50%);
+  --color-scrollbar-mac: rgb(51 51 51);
+  --color-scrollbar-mac-hover: rgb(75 76 79);
+  --color-scrollbar-other: rgb(51 51 51);
+  --color-scrollbar-other-hover: rgb(75 76 79);
+  --color-error-text: hsl(0deg 100% 75%);
+  --color-error-border: rgb(92 0 0);
+  --color-error-background: hsl(0deg 100% 8%);
+  --color-checkbox-accent-color: rgb(255 165 0);
+  --color-input-outline: rgb(60 64 67);
+  --color-input-outline-active: rgb(138 180 248);
+  --color-input-outline-error: rgb(242 139 130);
+  --color-input-outline-disabled: rgba(189 193 198 / 20%);
+  --color-input-text-disabled: rgba(128 134 139 / 70%);
+  --color-button-outline-focus: rgb(138 180 248 / 75%);
+  --color-button-primary-background-hovering: rgb(174 203 250 / 100%);
+  --color-button-primary-background-pressed: rgb(210 227 252 / 100%);
+  --color-button-primary-text: rgb(0 0 0);
+  --color-button-primary-text-hover: rgb(60 61 65);
+  --color-button-secondary-background-hovering: rgb(138 180 248 / 15%);
+  --color-button-secondary-background-pressed: rgb(138 180 248 / 23%);
+  --color-button-secondary-border: rgb(60 61 65);
+  --color-iconbutton-hover: rgb(255 255 255 / 12%);
+  --color-iconbutton-pressed: rgb(255 255 255 / 20%);
+  --color-ic-file-document: rgb(39 116 240);
+  --color-ic-file-image: rgb(30 142 62);
+  --color-ic-file-font: rgb(18 181 203);
+  --color-ic-file-script: rgb(234 134 0);
+  --color-ic-file-stylesheet: rgb(161 66 244);
+  --color-ic-file-webbundle: rgb(128 134 139);
+  --color-ic-file-default: rgb(128 134 139);
+  --color-token-variable: rgb(217 217 217);
+  --color-token-property: rgb(210 192 87);
+  --color-token-type: var(--color-token-tag);
+  --color-token-definition: var(--color-token-tag);
+  --color-token-builtin: rgb(159 180 214);
+  --color-token-variable-special: rgb(0 85 170);
+  --color-token-keyword: rgb(154 127 213);
+  --color-token-string: rgb(242 139 84);
+  --color-token-string-special: var(--color-token-string);
+  --color-token-atom: rgb(161 247 181);
+  --color-token-number: var(--color-token-atom);
+  --color-token-comment: var(--color-syntax-6);
+  --color-token-tag: rgb(93 176 215);
+  --color-token-attribute: rgb(155 187 220);
+  --color-token-attribute-value: rgb(242 151 102);
+  --color-token-meta: rgb(221 251 85);
+  --color-token-pseudo-element: rgb(237 119 229);
+  --color-secondary-cursor: rgb(63 63 63);
+  --color-line-number: rgb(138 138 138);
+  --color-matching-bracket-underline: rgb(217 217 217);
+  --color-matching-bracket-background: initial;
+  --color-nonmatching-bracket-underline: rgb(255 26 26);
+  --color-nonmatching-bracket-background: initial;
+  --color-editor-selection: hsl(207deg 88% 22%);
+  --color-editor-selection-blurred: #454545;
+  --color-trailing-whitespace: rgb(255 0 0 / 5%);
+  --color-selected-option: #fff;
+  --color-selected-option-background: #0e639c;
+  --color-highlighted-line: hsl(133deg 100% 30% / 50%);
+  --color-completion-hover: rgb(56 121 217 / 10%);
+  --color-search-match-border: rgb(128 128 128);
+  --color-selected-search-match: #eee;
+  --color-selected-search-match-background: hsl(133deg 100% 30%);
+  --color-coverage-used: rgb(65 138 156);
+  --color-execution-line-background: rgb(0 154 17 / 30%);
+  --color-execution-line-outline: #33cc6b;
+  --color-execution-token-background: rgb(132 237 78 / 20%);
+  --color-continue-to-location: rgb(0 173 56 / 35%);
+  --color-continue-to-location-hover: rgb(0 173 56 / 35%);
+  --color-continue-to-location-hover-border: #33cc6b;
+  --color-continue-to-location-async: rgb(87 238 0 / 20%);
+  --color-continue-to-location-async-hover: rgb(128 241 48 / 50%);
+  --color-continue-to-location-async-hover-border: rgb(101 155 101);
+  --color-evaluated-expression: rgb(71 70 0 / 75%);
+  --color-evaluated-expression-border: rgb(221 99 92);
+  --color-variable-values: rgb(56 28 0);
+  --color-non-breakable-line: rgb(127 127 127 / 40%);
+}
